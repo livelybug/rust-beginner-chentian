@@ -1,0 +1,13 @@
+/home/burt/p2/src/rust/chentian/03/scrape_url/target/debug/deps/liburl-8a59d703173cbe45.rmeta: /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/lib.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/host.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/origin.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/parser.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/path_segments.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/slicing.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/quirks.rs
+
+/home/burt/p2/src/rust/chentian/03/scrape_url/target/debug/deps/liburl-8a59d703173cbe45.rlib: /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/lib.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/host.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/origin.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/parser.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/path_segments.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/slicing.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/quirks.rs
+
+/home/burt/p2/src/rust/chentian/03/scrape_url/target/debug/deps/url-8a59d703173cbe45.d: /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/lib.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/host.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/origin.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/parser.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/path_segments.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/slicing.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/quirks.rs
+
+/home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/lib.rs:
+/home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/host.rs:
+/home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/origin.rs:
+/home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/parser.rs:
+/home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/path_segments.rs:
+/home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/slicing.rs:
+/home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.5.2/src/quirks.rs:

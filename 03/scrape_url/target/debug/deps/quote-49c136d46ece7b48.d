@@ -1,0 +1,13 @@
+/home/burt/p2/src/rust/chentian/03/scrape_url/target/debug/deps/libquote-49c136d46ece7b48.rmeta: /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/lib.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/ext.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/format.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/ident_fragment.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/to_tokens.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/runtime.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/spanned.rs
+
+/home/burt/p2/src/rust/chentian/03/scrape_url/target/debug/deps/libquote-49c136d46ece7b48.rlib: /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/lib.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/ext.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/format.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/ident_fragment.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/to_tokens.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/runtime.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/spanned.rs
+
+/home/burt/p2/src/rust/chentian/03/scrape_url/target/debug/deps/quote-49c136d46ece7b48.d: /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/lib.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/ext.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/format.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/ident_fragment.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/to_tokens.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/runtime.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/spanned.rs
+
+/home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/lib.rs:
+/home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/ext.rs:
+/home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/format.rs:
+/home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/ident_fragment.rs:
+/home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/to_tokens.rs:
+/home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/runtime.rs:
+/home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.36/src/spanned.rs:

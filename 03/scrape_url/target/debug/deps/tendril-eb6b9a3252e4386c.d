@@ -1,0 +1,13 @@
+/home/burt/p2/src/rust/chentian/03/scrape_url/target/debug/deps/libtendril-eb6b9a3252e4386c.rmeta: /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/lib.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/fmt.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/stream.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/buf32.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/tendril.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/utf8_decode.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/util.rs
+
+/home/burt/p2/src/rust/chentian/03/scrape_url/target/debug/deps/libtendril-eb6b9a3252e4386c.rlib: /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/lib.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/fmt.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/stream.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/buf32.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/tendril.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/utf8_decode.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/util.rs
+
+/home/burt/p2/src/rust/chentian/03/scrape_url/target/debug/deps/tendril-eb6b9a3252e4386c.d: /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/lib.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/fmt.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/stream.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/buf32.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/tendril.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/utf8_decode.rs /home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/util.rs
+
+/home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/lib.rs:
+/home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/fmt.rs:
+/home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/stream.rs:
+/home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/buf32.rs:
+/home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/tendril.rs:
+/home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/utf8_decode.rs:
+/home/burt/.cargo/registry/src/github.com-1ecc6299db9ec823/tendril-0.4.3/src/util.rs:
