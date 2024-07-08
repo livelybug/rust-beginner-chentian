@@ -1,20 +1,26 @@
 use clap::{Parser, Subcommand};
-use reqwest::Url;
+use reqwest::{Url, Client, Response};
 use anyhow::{anyhow, Result, Context};
 use std::str::FromStr;
 
 #[derive(Debug, Subcommand)]
 enum MyHttpSubcommands {
-    Post {
-        #[arg(value_parser = validate_url)]
-        url: String,
-        #[arg(value_parser = parse_kv_pair)]
-        body: Vec<KvPair>,
-    },
-    Get {
-        #[arg(value_parser = validate_url)]
-        url: String,
-    }
+    Post(Post),
+    Get(Get)
+}
+
+#[derive(Parser, Debug)]
+struct Get {
+    #[arg(value_parser = validate_url)]
+    url: String,
+}
+
+#[derive(Parser, Debug)]
+struct Post {
+    #[arg(value_parser = validate_url)]
+    url: String,
+    #[arg(value_parser = parse_kv_pair)]
+    body: Vec<KvPair>,
 }
 
 #[derive(Debug, Parser)]
@@ -68,19 +74,28 @@ fn parse_kv_pair(s: &str) -> Result<KvPair> {
     s.parse()
 }
 
-fn main() -> Result<()> {
-    let args = MyHttpCmd::parse();
-    println!("{:?}", args);
-/* 
-    match args.command {
-        MyHttpSubcommands::Post { url, body } => {
-            let parsed_url = validate_url(&url)?;
-            validate_body(&body)?;
+async fn get(client: Client, args: &Get) -> Result<()> {
+    let resp = client.get(&args.url).send().await?;
+    print!("{:?}", resp);
+    Ok(())
+}
 
-            println!("URL: {}", parsed_url);
-            println!("Body: {:?}", body);
-        }
-    }
- */
+async fn post(client: Client, args: &Post) -> Result<()> {
+    let resp = client.get(&args.url).send().await?;
+    print!("{:?}", resp);
+    Ok(())
+}
+
+#[tokio::main]
+async fn main() -> Result<()> {
+    let client = Client::new();
+    
+    let my_claps = MyHttpCmd::parse();
+    println!("{:?}", my_claps);
+    let result = match my_claps.command {
+        MyHttpSubcommands::Get(ref args) => get(client, args).await?,
+        MyHttpSubcommands::Post(ref args) => post(client, args).await?,
+    };
+
     Ok(())
 }
