@@ -1,5 +1,6 @@
 
-use base64::{decode_config, encode_config, URL_SAFE_NO_PAD};
+use base64::{prelude::*, engine::general_purpose::URL_SAFE_NO_PAD};
+// use base64::{decode_config, encode_config, URL_SAFE_NO_PAD};
 use photon_rs::transform ::SamplingFilter;
 use prost::Message;
 use std::convert::TryFrom;
@@ -17,7 +18,7 @@ impl ImageSpec {
 impl From<&ImageSpec> for String {
     fn from(image_spec: &ImageSpec) -> Self {
         let data = image_spec.encode_to_vec();
-        encode_config(data, URL_SAFE_NO_PAD)
+        URL_SAFE_NO_PAD.encode(data)
     }
 }
 
@@ -26,7 +27,7 @@ impl TryFrom<&str> for ImageSpec {
     type Error = anyhow::Error;
 
     fn try_from(value: &str) -> Result<Self, Self::Error> {
-        let data = decode_config(value, URL_SAFE_NO_PAD)?;
+        let data = URL_SAFE_NO_PAD.decode(value)?;
         Ok(ImageSpec::decode(&data[..])?)
     }
 }

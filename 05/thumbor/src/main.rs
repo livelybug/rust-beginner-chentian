@@ -2,9 +2,9 @@
 use anyhow::Result;
 use axum::{
     extract::{Extension, Path},
-    handler::get,
+    routing::get,
     http::{HeaderMap, HeaderValue, StatusCode},
-    AddExtensionLayer, Router,
+    Router,
 };
 use bytes::Bytes;
 use lru::LruCache;
@@ -19,6 +19,7 @@ use std::{
 use tokio::sync::Mutex;
 use tower::ServiceBuilder;
 use tracing::{info, instrument};
+use std::num::NonZeroUsize;
 
 mod pb;
 
@@ -35,26 +36,26 @@ type Cache = Arc<Mutex<LruCache<u64, Bytes>>>;
 async fn main() {
     // 初始化 tracing
     tracing_subscriber::fmt::init();
-    let cache: Cache = Arc::new(Mutex::new(LruCache::new(1024)));
+    let mut l_cache = LruCache::new(NonZeroUsize::new(1024).unwrap());
+    let cache: Cache = Arc::new(Mutex::new(l_cache));
     // 构建路由
     let app = Router::new()
         // `GET /` 会执行
         .route("/image/:spec/:url", get(generate))
         .layer(
             ServiceBuilder::new()
-                .layer(AddExtensionLayer::new(cache))
-                .into_inner(),
+                .layer(Extension(cache))
         );
 
     // 运行 web 服务器
-    let addr = "127.0.0.1:3000".parse().unwrap();
+    let addr = "127.0.0.1:3000";
+    let listener = tokio::net::TcpListener::bind(addr).await.unwrap();
 
     print_test_url("https://images.pexels.com/photos/1562477/pexels-photo-1562477.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
 
     info!("Listening on {}", addr);
 
-    axum::Server::bind(&addr)
-        .serve(app.into_make_service())
+    axum::serve(listener, app)
         .await
         .unwrap();
 }
