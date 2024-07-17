@@ -1,0 +1,10 @@
+[package]
+name = "multi_owner"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "dag"
+path = "src/dag.rs"
+
+[dependencies]
